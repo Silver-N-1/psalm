@@ -4,7 +4,7 @@
 
 <img width="1429" height="970" alt="image" src="https://github.com/user-attachments/assets/4127151a-d7ab-4461-9721-7752af5c3081" />
 
-_Siis kopeerida sellle repo https_
+### Siis kopeerida sellle repo https
 
 <img width="1770" height="888" alt="image" src="https://github.com/user-attachments/assets/2ade27db-138a-43fd-9c8c-d6630e429514" />
 
