@@ -22,7 +22,7 @@
 
 ### Enda arvutist reposse.
 
-1) tõsta kõik tehtud failid repo kausta _psalm_
+1) Tõsta kõik tehtud failid repo kausta _psalm_
 2) Liigu terminalis sinna kausta _cd psalm_
 3) Terminalis pane _git add ._ (punkt lisab kõik muudetud failid)
 4) Commiti uuendused _git commit -m ""_ (""- sisse PEAB lisama mingi tektsi, lih lühikirjeldus, mida sa lisasid/tegid)
