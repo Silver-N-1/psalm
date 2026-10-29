@@ -1,4 +1,4 @@
-# Meelespea, kuidas giti kasutada Visual Studio code'ga:
+# Meelespea, kuidas giti kasutada Visual Studio Code'ga:
 
 ### Valida open folder, ja folder, kus tahad repo asju hoida
 
