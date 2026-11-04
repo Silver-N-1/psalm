@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Redaction+10:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Redaction 10", serif;
+    font-weight: 400;
+}
+.logo{
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.navbar{
+    background: #4F7942;
+    padding: 2px 10px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.navlink{
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+.nav-links a {
+    color: #ffffff;     
+    font-size: 1rem;      
+    padding: 2px 6px;      
+    display: inline-block;  
+}
