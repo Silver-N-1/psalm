@@ -1,0 +1,36 @@
+.kaart {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    background-color: rgb(242, 234, 234);
+}
+
+.kaart img {
+    width: 275px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.info {
+    flex: 1;
+}
+
+.info h2 {
+    font-size: 30px;
+    color: rgb(121, 94, 58);
+    transform: translateY(-17px);
+}
+
+.info p {
+    font-size: 15px;
+    color: black;
+    transform: translateY(-40px);
+    display: inline-block;
+    border: 1px solid rgb(121, 94, 58);
+    border-radius: 5px;
+    padding: 20px 25px;
+}
