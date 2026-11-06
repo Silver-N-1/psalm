@@ -22,15 +22,15 @@
 .info h2 {
     font-size: 30px;
     color: rgb(121, 94, 58);
-    transform: translateY(-17px);
+    margin: 0 0 15px 0;
 }
 
 .info p {
     font-size: 15px;
     color: black;
-    transform: translateY(-40px);
     display: inline-block;
     border: 1px solid rgb(121, 94, 58);
     border-radius: 5px;
     padding: 20px 25px;
+    margin: 0;
 }
