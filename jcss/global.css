@@ -1,12 +1,12 @@
 /*Siin all on peamised värvid[saab kasutada shortcutina: var(--nimi) ]*/
 :root {
-    --roheline: #4F7942;
-    --roheline-hover: #65764f;
-    --salvei: #d9ddc9;
-    --salvei-hover: #c2cbb0;
-    --kreem: #F7F0DF;
-    --tekst: #444444;
-    --piirjoon: #dddddd;
+    --roheline: #4F7942;       /* Peamine värv: pealkirjad, nupud, navigatsiooniriba, aktiivne video/heli */
+    --roheline-hover: #65764f; /* Nuppude ja linkide värv hiirega peale liikudes (hover) */
+    --salvei: #d9ddc9;         /* Kastide ja kaartide taust (helikast, videokaardid, ikooniringid) */
+    --salvei-hover: #c2cbb0;   /* Kaartide ja heliridade taust hiirega peale liikudes (hover) */
+    --kreem: #F7F0DF;          /* Lehe põhitaust, sisselogimiskasti taust ja hele tekst tumedal nupul */
+    --tekst: #444444;          /* Tavaline sisutekst, lõigud ja pealkirjad kaartidel */
+    --piirjoon: #dddddd;       /* Õrnad äärised ja eraldusjooned (piltide ja sisestusväljade ümber) */
 }
 @import url('https://fonts.googleapis.com/css2?family=Redaction+10:ital,wght@0,400;0,700;1,400&display=swap');
 *{
