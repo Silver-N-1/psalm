@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    min-height: 100vh; 
+    background-image: url("pildid/lendorav1.jpg");
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+
+.login{
+    width: 90%;        
+    max-width: 400px;  
+    margin: 60px auto;
+    background: #23ac4a;
+    padding: 24px;
+    border-radius: 12px;
+}
+.button{
+    padding: 10px; 
+    cursor: pointer;
+}
+.input{
+    padding: 10px;
+}
+.konto{
+    display: flex; 
+    flex-direction: column; 
+    gap: 12px; 
+    margin-top: 15px;
+}
+.polekonto{
+    margin-top: 15px
+}
