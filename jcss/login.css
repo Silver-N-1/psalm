@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #F7F0DF;
+    background-image: url("../pildid/lendorav1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #444444;
+}
+
+.login {
+    width: 90%;
+    max-width: 400px;
+    margin: 60px auto;
+    background: #F7F0DF;
+    border: 2px solid #d9ddc9;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.login h2 {
+    color: #4F7942;
+    margin-top: 0;
+}
+
+.konto {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.input {
+    padding: 10px 12px;
+    background-color: #ffffff;
+    color: #444444;
+    border: 1px solid #c2cbb0;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.input:focus {
+    outline: 2px solid #4F7942;
+    border-color: #4F7942;
+}
+
+.button {
+    padding: 12px;
+    background-color: #4F7942;
+    color: #F7F0DF;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #65764f;
+}
+
+.polekonto {
+    margin-top: 15px;
+    color: #444444;
+}
+
+.polekonto a {
+    color: #4F7942;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.polekonto a:hover {
+    color: #65764f;
+    text-decoration: underline;
+}

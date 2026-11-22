@@ -5,7 +5,7 @@
     align-items: center;
     padding: 0 10%;
     overflow: hidden;
-    background-image: url("pildid/lendorav1.jpg");
+    background-image: url("../pildid/lendorav1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,27 +31,67 @@
 }
 
 
-
-
-
-.lendoravast {
-    flex: 1;
-    padding: 30px;
+body {
+    font-family: "Redaction 10", serif;
+    font-weight: 400;
+    background-color: var(--kreem);
 }
 
+.lendoravast {
+    padding: 30px;
+}
 .lendoravast h2 {
     color: #4F7942;
-    font-size: 32px;
-    margin-bottom: 20px;
+    font-size: 36px;
+    margin-bottom: 25px;
+    
+}
+
+.lendoravast h3 {
+    color: #4F7942;
+    font-size: 23px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    
 }
 
 .lendoravast p {
     color: #444;
     font-size: 17px;
-    line-height: 1.7;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    
 }
 
+.info-rida p {
+    line-height: 1.6;
+    padding: 0;
+}
+.info-rida {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
 
+.info-rida div {
+    flex: 0 1 55%;
+    max-width: 500px;
+}
+
+.info-rida img {
+    width: 28%;
+    height: 220px;
+    object-fit: cover;
+    border: 1px solid var(--piirjoon);
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 200px;
+}
+
+.info-rida:nth-of-type(2) img {
+    transform: translateX(-200px);
+}
 .kaart {
     flex: 1;
     padding: 30px;
@@ -132,7 +172,7 @@ html {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 30px;
+    
 }
 
 .kaart-tekst {
@@ -147,4 +187,52 @@ html {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 5px;
+}
+
+.faktid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 70px 8%;
+    background-color: var(--kreem);
+}
+
+.section-pealkiri {
+    width: 100%;
+    text-align: center;
+    color: var(--roheline);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.fakt {
+    flex: 1;
+    background-color: var(--salvei);
+    padding: 35px 25px;
+    border-radius: 8px;
+    text-align: center;
+    min-height: 220px;
+}
+
+.fakt img {
+    width: 100%;
+    max-width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid var(--piirjoon);
+}
+
+.fakt p {
+    color: var(--tekst);
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.fakt:hover {
+    background-color: #c2cbb0;
+    transform: scale(1.08);
+    transition: 0.3s ease;
 }
