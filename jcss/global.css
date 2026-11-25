@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Redaction+10:ital,wght@0,400;0,700;1,400&display=swap');
 /*Siin all on peamised värvid[saab kasutada shortcutina: var(--nimi) ]*/
 :root {
     --roheline: #4F7942;       /* Peamine värv: pealkirjad, nupud, navigatsiooniriba, aktiivne video/heli */
@@ -8,7 +9,6 @@
     --tekst: #444444;          /* Tavaline sisutekst, lõigud ja pealkirjad kaartidel */
     --piirjoon: #dddddd;       /* Õrnad äärised ja eraldusjooned (piltide ja sisestusväljade ümber) */
 }
-@import url('https://fonts.googleapis.com/css2?family=Redaction+10:ital,wght@0,400;0,700;1,400&display=swap');
 *{
     text-decoration: none;
     box-sizing: border-box;
