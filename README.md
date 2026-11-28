@@ -1,7 +1,7 @@
 # psalm
-Lendorava fanpage, mis koosneb pealehest, pildi galerii ja video/jutu lehest. Eesmärk on tutsustada lendoravaid.
+Meie veebileht tutvustab lendoravat, kes on Eestis kriitiliselt ohustatud liik. Lehe eesmärk on tõmmata tähelepanu ja suurendada teadmisi sellest imearmsast loomast.
 
 <br> Tiimi liikmed on: 
-<br>Betti Kallus - pildi
-<br>Liisbeth Rosenstein - pealeht (index.html)
-<br>Silver Nõgols - video ja jutu alamleht (Video_alamleht.html) ja sisse logimise alamlehed
+<br>Betti Kallus - Pildi galerii (alamleht1.html) + selle css
+<br>Liisbeth Rosenstein - Pealeht (index.html) + selle css
+<br>Silver Nõgols - Video ja jutu alamleht (Video_alamleht.html) ja sisse logimise alamlehed (SignUp.html, login.html) + selle css, js
