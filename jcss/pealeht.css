@@ -236,3 +236,11 @@ html {
     transform: scale(1.08);
     transition: 0.3s ease;
 }
+@media (max-width: 530px){
+
+    .ring{
+        width: 100px;
+        height: 100px;
+    }
+
+}
