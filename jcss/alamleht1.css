@@ -27,7 +27,7 @@
     margin: 0;
 }
 
-.kaart {
+.galerii-kaart {
     display: flex;
     align-items: center;
     gap: 30px;
@@ -38,7 +38,7 @@
     background-color: #F7F0DF;
 }
 
-.kaart img {
+.galerii-kaart img {
     width: 275px;
     height: auto;
     border-radius: 5px;
@@ -86,4 +86,60 @@
 
 .andmekast strong {
     color: rgb(121, 94, 58);
+}
+
+@media (max-width: 600px) {
+
+    .galerii-pealkiri {
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+
+    .galerii-pealkiri h1 {
+        font-size: 29px;
+    }
+
+    .galerii-pealkiri p {
+        font-size: 15px;
+    }
+
+    .galerii-kaart {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    .galerii-kaart img {
+        width: 100%;
+        max-width: 350px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .info h2 {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .info p {
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 12px;
+        display: block;
+    }
+
+    .lisaandmed {
+        gap: 8px;
+    }
+
+    .andmekast {
+        font-size: 12px;
+        padding: 7px 9px;
+    }
 }
